@@ -1,0 +1,72 @@
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("background.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	margin-top: 30px;
+}
+
+ul li {
+	display: inline;
+	padding-right: 20px;
+	text-transform: uppercase;
+}
+
+ul li a {
+	text-decoration: none;
+	font-size: 35px;
+	color: white;
+	border: 1px solid transparent;
+	padding: 5px 20px
+
+
+}
+
+ul li a:hover{
+	background-color: blue;
+	color: black;
+	transition:0.5s ease;
+	
+}
+
+ul li.active a{
+	background-color: white;
+	color:black;
+}
+
+img{
+	float: left;
+	width: 110px;
+	height: auto;
+}
+
+.text{
+	position: absolute;
+	top:45%;
+	left: 43%;
+}
+
+.text h1{
+	font-size: 55px;
+	color: white;
+}
+/*.container {
+	width: 960px;
+	height: 960px;
+  
+
+}
+/*@media screen and  (max-width: 959px){
+	.container {
+		width: 100%;
+
+	}
+	img {
+		width: 100%;
+	}
+}
+
